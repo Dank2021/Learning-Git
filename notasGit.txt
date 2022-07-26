@@ -1,18 +1,24 @@
 notasGit:
 
-- pwd				Indica la ruta actual en la que se encuentra o directorio. 
-- cd directoryName	Busca e ingresa a la carpeta archivo que indique.
-- ls 				Para la lista de archivos que se hayen en la ubicacion actual.
-- git init 			Inicializar un nuevo proyecto. 
-- git status 		Para verificar el estado de los archivos de la carpeta. 
-- git add fileName 	Agregar un archivo para seguirlo.
-- git commint		Guardar un punto de control. 
+- pwd					Indica la ruta actual en la que se encuentra o directorio. 
+- cd directoryName		Busca e ingresa a la carpeta archivo que indique.
+- ls 					Para la lista de archivos que se hayen en la ubicacion actual.
+- git init 				Inicializar un nuevo proyecto. 
+- git status 			Para verificar el estado de los archivos de la carpeta. 
+- git add fileName 		Agregar un archivo para seguirlo.
+- git commit			Guardar un punto de control. 
 	(Para hacer un commit se debe registrarse con usuario y email.)
 		- git config --global user.email "you@example.com"
 		- git config --global user.name "Your Name"
 	(Una vez registrado en la consola y ejecutado el comando git commit)
-		-insert	Para escribir, lo 1ero es darle un nombre al commit
-		-Esc 		Para pasar a la linea de...
-		-:wq		Para terminar el commit 
-- git log 			Para observar todos los commits creados.
-- git diff fileName 	Para comparar los cambios de los archivos. Sus diferencias.
+		-insert		Para escribir, lo 1ero es darle un nombre al commit
+		-Esc 			Para pasar a la linea de...
+		-:wq			Para terminar el commit. w: Write, q: Quit 
+- git log 				Para observar todos los commits creados.
+- git diff fileName 		Para comparar los cambios de los archivos. Sus diferencias.
+
+	(Cuando se relizan cambios de los que no se desea estar al pendiente, se puede crear un archivo
+	con nombre: .gitignore, el cual contendra los nombres de las carpetas y archivos que se deasean
+	ignorar en forma de lista en diferentes lineas. Este archivo de crearse en el directorio actual)
+- git commit -m "message"	Para agregar un nuevo commit, mas facil y rapidamente.
+	
