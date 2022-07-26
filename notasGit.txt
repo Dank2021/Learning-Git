@@ -7,10 +7,12 @@ notasGit:
 - git status 		Para verificar el estado de los archivos de la carpeta. 
 - git add fileName 	Agregar un archivo para seguirlo.
 - git commint		Guardar un punto de control. 
-(Para hacer un commit se debe registrarse con usuario y email.)
-- git config --global user.email "you@example.com"
-- git config --global user.name "Your Name"
-(Una vez registrado en la consola y ejecutado el comando git commit)
--insert	Para escribir, lo 1ero es darle un nombre al commit
--Esc 		Para pasar a la linea de...
--:wq		Para terminar el commit 
+	(Para hacer un commit se debe registrarse con usuario y email.)
+		- git config --global user.email "you@example.com"
+		- git config --global user.name "Your Name"
+	(Una vez registrado en la consola y ejecutado el comando git commit)
+		-insert	Para escribir, lo 1ero es darle un nombre al commit
+		-Esc 		Para pasar a la linea de...
+		-:wq		Para terminar el commit 
+- git log 			Para observar todos los commits creados.
+- git diff fileName 	Para comparar los cambios de los archivos. Sus diferencias.
