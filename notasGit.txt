@@ -21,4 +21,13 @@ notasGit:
 	con nombre: .gitignore, el cual contendra los nombres de las carpetas y archivos que se deasean
 	ignorar en forma de lista en diferentes lineas. Este archivo de crearse en el directorio actual)
 - git commit -m "message"	Para agregar un nuevo commit, mas facil y rapidamente.
-	
+
+	(Con las ramas o branch podemos crear copias alternativas del proyecto y manipularlar por aparte,
+	 son el equivalente a los usuarios de windows, todas manejan en este caso un proyecto en común
+	 pero los cambios se mantienen solamente en sus respectivas ramas. Al igual sus archivos, los cuales
+	 aparecen y desaparecen segun la rama en la que se encuentre).
+- git branch 			Para visualizar las diferentes ramas y la rama actual.
+- git branch "newBranch"	Para crear una nueva version alternativa del proyecto.
+- git checkout "branchName"	Para moverse a otra rama.
+- git add .				Para agregar todos los cambios realizados de los archivos.	
+- git push				Cargar contenido del repositorio local a un repositorio remoto
