@@ -32,3 +32,4 @@ notasGit:
 - git add .				Para agregar todos los cambios realizados de los archivos.	
 - git push				Cargar contenido del repositorio local a un repositorio remoto
 - git remote add origin https	Para indicar el repositorio remoto en el que se van a guardar los archivos.
+- cd ..				Salir del directorio actual
