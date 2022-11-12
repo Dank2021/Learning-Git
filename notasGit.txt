@@ -38,6 +38,10 @@ NotasGit:
 
 - git branch 			Para visualizar las diferentes ramas y la rama actual.
 - git branch "newBranch"	Para crear una nueva version alternativa del proyecto.
+- git branch -m oldNam newNam Cambia el nombre de la rama que indiques a continuación por el que indiques segundo.	
+					(Si solo se coloca el campo del oldName, cambia el nombre a la rama en la 
+					que te encuentres).
+- git branch -d branchName	Borra la rama que indiques a continuación.
 - git checkout "branchName"	Para moverse a otra rama.
 - git checkout -b "newbranch" Para crear una nueva rama y moverse a ella.
 
@@ -45,6 +49,7 @@ NotasGit:
 
 
 - git remote add origin https	Para indicar el repositorio remoto en el que se van a guardar los archivos.
+- git push -u origin main
 - git push				Cargar contenido del repositorio local a un repositorio remoto
 - git merge				Para fusionar una rama con la master.
 
